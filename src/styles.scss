@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import '~variables.scss';
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    // font-family: 'Rubik', sans-serif;
+    //font-family: 'Roboto', sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: $bodybg;
+}
+
+.card-shadow {
+    box-shadow: 0 1px 10px 1px rgba(0, 0, 0, .05);
+}
+
+.card {
+    border-radius: 5px;
+}
+
+.card,
+.card-header {
+    border-color: #e5e8eb;
+}
+
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}

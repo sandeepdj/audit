@@ -1,0 +1,45 @@
+@import '~variables.scss';
+.header-wrap {
+    background: $white;
+    padding: 10px 11px;
+    border-bottom: 1px solid #e5e8eb;
+    box-shadow: 0 1px 10px 1px rgba(115, 108, 203, .1);
+    position: fixed;
+    width: 100%;
+    height: $header_height;
+}
+
+.pagewrap {
+    margin-top: $header_height;
+    height: $pageheight;
+}
+
+.page-wrap,
+.pagewrap>.container-fluid,
+.pagewrap>.container-fluid>.row {
+    height: 100%;
+}
+
+.page-wrap {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.sidebar-wrap {
+    transition: margin .4s ease 0s;
+    width: 150px;
+    height: 100%;
+    background: #303C4B;
+}
+
+.sidebar-wrap,
+.container-wrap {
+    position: relative;
+    float: left;
+}
+
+.container-wrap {
+    width: calc(100% - 150px);
+    height: 100%;
+}

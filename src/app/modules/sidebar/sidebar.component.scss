@@ -1,0 +1,66 @@
+@import '~variables.scss';
+.sidebar {
+    padding: 0px;
+}
+
+.sidebar li {
+    list-style-type: none;
+}
+
+.sidebar a {
+    position: relative;
+    float: left;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    color: #6a6c6f;
+    border-right: 5px solid #303C4B;
+}
+
+.sidebar a p {
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.sidebar .active {
+    border-right: 5px solid;
+    border-color: $activeLink;
+    background: #2a3442;
+    color: #fff;
+}
+
+.sidebar,
+.sidebar li {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.user-details {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.user-details img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.user-details {
+    color: #6a6c6f;
+}
+
+.u-name {
+    font-weight: 700;
+}
+
+.sidebar a:hover {
+    background: #2a3442;
+    border-right: 5px solid;
+    color: #fff;
+    border-color: $activeLink;
+}
+
+.u-position {}
